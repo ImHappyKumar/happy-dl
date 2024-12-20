@@ -1,4 +1,4 @@
-# Happy DL
+# HAPPY DOWNLOADER (HAPPY DL)
 
 A simple tool to generate direct download links for media from Instagram, Facebook, and Twitter! Just provide the post URL, and this package will return a direct download URL.
 
