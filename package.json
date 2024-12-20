@@ -10,7 +10,9 @@
     "LICENSE"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "prepublish": "echo 'Preparing for publish...'"
   },
   "keywords": [
     "media",
@@ -21,6 +23,11 @@
   ],
   "author": "Happy Kumar",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ImHappyKumar/happy-dl.git"
+  },
+  "licenseText": "MIT License. See LICENSE file for details.",
   "dependencies": {
     "axios": "^1.7.9",
     "cheerio": "^1.0.0"
