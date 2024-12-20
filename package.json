@@ -1,0 +1,27 @@
+{
+  "name": "happy-dl",
+  "version": "1.0.0",
+  "description": "A package to download media from social platforms like Instagram, Facebook, Twitter, etc.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "media",
+    "download",
+    "instagram",
+    "twitter",
+    "facebook"
+  ],
+  "author": "Happy Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "cheerio": "^1.0.0"
+  }
+}
