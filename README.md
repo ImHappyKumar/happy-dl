@@ -1,6 +1,6 @@
 # Happy DL
 
-A simple tool to download media from Instagram, Facebook, and Twitter! Just provide the direct URL to the media, and this package handles the rest.
+A simple tool to generate direct download links for media from Instagram, Facebook, and Twitter! Just provide the post URL, and this package will return a direct download URL.
 
 ## Installation
 
