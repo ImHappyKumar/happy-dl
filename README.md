@@ -42,27 +42,27 @@ const {
 
 ```javascript
 happyDL
-  .instagramDownloader("https://www.instagram.com/p/examplepost/")
-  .then((result) => console.log("Instagram media downloaded:", result))
-  .catch((error) => console.error("Error downloading Instagram media:", error));
+  .instagramDownloader("https://www.instagram.com/reel/C2xQMDBBY6v/")
+  .then((result) => console.log("Fetched Instagram media details:", result))
+  .catch((error) => console.error("Error fetching Instagram media details:", error));
 ```
 
 #### Facebook Downloader
 
 ```javascript
 happyDL
-  .facebookDownloader("https://www.facebook.com/examplevideo")
-  .then((result) => console.log("Facebook media downloaded:", result))
-  .catch((error) => console.error("Error downloading Facebook media:", error));
+  .facebookDownloader("https://www.facebook.com/share/r/yfF9ZULaNJnQ72Ur/")
+  .then((result) => console.log("Fetched Facebook media details:", result))
+  .catch((error) => console.error("Error fetching Facebook media details:", error));
 ```
 
 #### Twitter Downloader
 
 ```javascript
 happyDL
-  .twitterDownloader("https://twitter.com/example/status/12345")
-  .then((result) => console.log("Twitter media downloaded:", result))
-  .catch((error) => console.error("Error downloading Twitter media:", error));
+  .twitterDownloader("https://x.com/ImHappyKumar/status/1758877530776547450")
+  .then((result) => console.log("Fetched Twitter media details:", result))
+  .catch((error) => console.error("Error fetching Twitter media details:", error));
 ```
 
 ## Supported Platforms
