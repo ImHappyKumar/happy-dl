@@ -5,6 +5,7 @@
   "main": "index.js",
   "files": [
     "index.js",
+    "GuestToken.txt",
     "package.json",
     "README.md",
     "LICENSE"
