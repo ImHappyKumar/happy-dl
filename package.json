@@ -1,6 +1,6 @@
 {
   "name": "happy-dl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A package to download media from social platforms like Instagram, Facebook, Twitter, etc.",
   "main": "index.js",
   "files": [
