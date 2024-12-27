@@ -1,4 +1,10 @@
 # HAPPY DOWNLOADER (HAPPY DL)
+![NPM Info](https://nodei.co/npm/happy-dl.png?downloads=true&downloadRank=true&stars=true)
+
+[![GitHub stars](https://img.shields.io/github/stars/ImHappyKumar/happy-dl?style=social&color=blue)](https://github.com/ImHappyKumar/happy-dl)
+[![npm total downloads](https://img.shields.io/npm/dt/happy-dl?color=blue)](https://www.npmjs.com/package/happy-dl)
+[![npm version](https://img.shields.io/npm/v/happy-dl?color=blue)](https://www.npmjs.com/package/happy-dl)
+[![License](https://img.shields.io/npm/l/happy-dl?color=blue)](LICENSE)
 
 A simple tool to generate direct download links for media from Instagram, Facebook, and Twitter! Just provide the post URL, and this package will return a direct download URL.
 
