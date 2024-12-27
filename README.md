@@ -41,28 +41,52 @@ const {
 #### Instagram Downloader
 
 ```javascript
-happyDL
-  .instagramDownloader("https://www.instagram.com/reel/C2xQMDBBY6v/")
-  .then((result) => console.log("Fetched Instagram media details:", result))
-  .catch((error) => console.error("Error fetching Instagram media details:", error));
+async function fetchInstagramData() {
+  try {
+    const result = await happyDL.instagramDownloader(
+      "https://www.instagram.com/reel/C2xQMDBBY6v/"
+    );
+    console.log("Fetched Instagram media details:", result);
+  } catch (error) {
+    console.error("Error fetching Instagram media details:", error);
+  }
+}
+
+fetchInstagramData();
 ```
 
 #### Facebook Downloader
 
 ```javascript
-happyDL
-  .facebookDownloader("https://www.facebook.com/share/r/yfF9ZULaNJnQ72Ur/")
-  .then((result) => console.log("Fetched Facebook media details:", result))
-  .catch((error) => console.error("Error fetching Facebook media details:", error));
+async function fetchFacebookData() {
+  try {
+    const result = await happyDL.facebookDownloader(
+      "https://www.facebook.com/share/r/yfF9ZULaNJnQ72Ur/"
+    );
+    console.log("Fetched Facebook media details:", result);
+  } catch (error) {
+    console.error("Error fetching Facebook media details:", error);
+  }
+}
+
+fetchFacebookData();
 ```
 
 #### Twitter Downloader
 
 ```javascript
-happyDL
-  .twitterDownloader("https://x.com/ImHappyKumar/status/1758877530776547450")
-  .then((result) => console.log("Fetched Twitter media details:", result))
-  .catch((error) => console.error("Error fetching Twitter media details:", error));
+async function fetchTwitterData() {
+  try {
+    const result = await happyDL.twitterDownloader(
+      "https://x.com/ImHappyKumar/status/1758877530776547450"
+    );
+    console.log("Fetched Twitter media details:", result);
+  } catch (error) {
+    console.error("Error fetching Twitter media details:", error);
+  }
+}
+
+fetchTwitterData();
 ```
 
 ## Supported Platforms
